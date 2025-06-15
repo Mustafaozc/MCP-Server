@@ -4,7 +4,7 @@ mcp = FastMCP("Web Search MCP Server")
 
 @mcp.tool
 async def search_web(search_term: str, ctx: Context):
-    await ctx.info(f"Searching for: {search_term} on Web...")
+    await ctx.info(f"Searching for: {search_term} on Web")
 
     return {"some result", "result 2", "result 3"}
 
