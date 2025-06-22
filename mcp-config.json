@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "product-server": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "C:\\Users\\User1\\Desktop\\mcp-server"
+    }
+  }
+}
